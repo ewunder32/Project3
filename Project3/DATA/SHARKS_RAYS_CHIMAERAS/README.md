@@ -35,6 +35,7 @@ SOFTWARE.
 **Ethical Statements**
 
 **Data Dictionary**
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Data%20Dictionary.png)
 
 **Explanatory Plots**
 
