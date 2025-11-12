@@ -16,4 +16,6 @@ For this project, we used Roboflow’s pre-split dataset, ensuring reproducibili
 
 ##Explanatory Plots##
 ![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Distribution%20of%20Contrast%20per%20Shark%20Species.png)
-![alt text](image-url)
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Distribution%20of%20Image%20Brightness%20per%20Shark%20Species.png)
+![alt text](
+
