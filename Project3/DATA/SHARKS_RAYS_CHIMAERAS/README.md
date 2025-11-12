@@ -15,3 +15,5 @@ For this project, we used Roboflow’s pre-split dataset, ensuring reproducibili
 ##Data Dictionary##
 
 ##Explanatory Plots##
+![alt text](image-url)
+![alt text](image-url)
