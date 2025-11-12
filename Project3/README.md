@@ -1,10 +1,27 @@
 # Shark Species Classification (CNN) — DS 4002
 
-> **Goal statement:** Develop, train, and evaluate a CNN that classifies shark species from images and integrates conservation status. 
+ This Repostiory all code, documentation, and outputs for DS4002 Project 3. We aim to develop, train, and evaluate a CNN that classifies shark species from images and integrates conservation status. 
 
-## What’s in this repository
-This repo contains code, data pointers, and instructions to reproduce a CNN baseline for shark species classification using a simple TensorFlow/Keras model with three convolutional blocks, plus utilities to link predictions to IUCN conservation status.
----
+## Contents of Repository
+
+- **DATA**
+  - `Appendix.pdf`: Contains dataset descriptions, variable dictionaries, and descriptive statistics.
+  - `README.md`: How to obtain the raw datasets.
+  - `SHARKS_RAYS_CHMAERAS`: full shark images dataset
+
+- **SCRIPTS**
+  - `Project3.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
+
+- **OUTPUT**
+  - Data Dictionary.png`  #
+  - Distribution of Contrast per Shark Species.png
+  - Distribution of Image Brightness per Shark Species.png
+  - Distrinution of Images Across All Unique Shark Species.png
+    
+
+- **LICENSE.md**: MIT License for code and documentation in this repository.
+- **README.md**: (this file) Orientation, environment requirements, and reproduction instructions.
+
 
 ## 1) Software & Platform
 
