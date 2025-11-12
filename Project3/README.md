@@ -13,10 +13,10 @@
   - `Project3.ipynb`: Colab notebook with the full dataset creation and analysis pipeline.
 
 - **OUTPUT**
-  - Data Dictionary.png`  #
-  - Distribution of Contrast per Shark Species.png
-  - Distribution of Image Brightness per Shark Species.png
-  - Distrinution of Images Across All Unique Shark Species.png
+  - `Data Dictionary.png`  #
+  - `Distribution of Contrast per Shark Species.png`
+  - `Distribution of Image Brightness per Shark Species.png`
+  - `Distrinution of Images Across All Unique Shark Species.png`
     
 
 - **LICENSE.md**: MIT License for code and documentation in this repository.
