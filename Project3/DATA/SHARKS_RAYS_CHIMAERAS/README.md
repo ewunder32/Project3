@@ -34,6 +34,10 @@ SOFTWARE.
 
 **Ethical Statements**
 
+This dataset contains no personal or identifying information about individuals. Ethical considerations primarily relate to species misclassification and dataset bias. Some shark species have limited photographic data, potentially leading to class imbalance and uneven model performance. Misclassifying threatened species as common ones could affect conservation prioritization if applied at a scale. 
+
+To mitigate these issues, we document class distributions, apply data augmentation for underrepresented species, and cross-check model predictions against IUCN Red List statuses. Our project is strictly educational, focusing on transparent evaluation rather than field deployment. 
+
 **Data Dictionary**
 ![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Data%20Dictionary.png)
 
