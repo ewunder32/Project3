@@ -6,7 +6,7 @@ Our dataset contains 1,546 images of 15 shark species. The dataset is sourced fr
 
 This dataset originates from Roboflow, a public platform for computer vision datasets. The original contributors collected and annotated images of shark species from open-access marine photography repositories and research collaborations. Roboflow standardizes datasets into YOLO- and TensorFlow-compatible formats, performing preprocessing steps such as image resizing, bounding box alignment, and train/validation/test splits. 
 
-For this project, we used Roboflow’s pre-split dataset, ensuring reproducibility across training and evaluation phases. No manual relabeling was performed. The dataset provides balanced class representation across species, though real-world imbalances may persist. The images were loaded into TensorFlow/Keras using the image_dataset_from_directory() API, resized to 224×224 pixels, and normalized for CNN ingestion. 
+For this project, we used Roboflow’s pre-split dataset, ensuring reproducibility across training and evaluation phases. No manual relabeling was performed. The dataset provides balanced class representation across species, though real-world imbalances may persist. The images were loaded into TensorFlow/Keras using the image_dataset_from_directory() API, resized to 128×128 pixels, and normalized for CNN ingestion. 
 
 ## License
 
