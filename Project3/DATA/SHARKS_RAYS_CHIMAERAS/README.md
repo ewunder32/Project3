@@ -39,14 +39,14 @@ This dataset contains no personal or identifying information about individuals. 
 To mitigate these issues, we document class distributions, apply data augmentation for underrepresented species, and cross-check model predictions against IUCN Red List statuses. Our project is strictly educational, focusing on transparent evaluation rather than field deployment. 
 
 ## Data Dictionary
-![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Data%20Dictionary.png)
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/OUTPUT/Data%20Dictionary.png)
 
 ## Explanatory Plots
 
-![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Distribution%20of%20Images%20Across%20All%20Unique%20Shark%20Species.png)
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/OUTPUT/Distribution%20of%20Images%20Across%20All%20Unique%20Shark%20Species.png)
 
-![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Distribution%20of%20Contrast%20per%20Shark%20Species.png)
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/OUTPUT/Distribution%20of%20Image%20Brightness%20per%20Shark%20Species.png)
 
-![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/DATA/SHARKS_RAYS_CHIMAERAS/Distribution%20of%20Image%20Brightness%20per%20Shark%20Species.png)
+![alt text](https://github.com/ewunder32/Project3/blob/main/Project3/OUTPUT/Distribution%20of%20Contrast%20per%20Shark%20Species.png)
 
 
