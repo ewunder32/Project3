@@ -8,9 +8,9 @@ This repository documents our full workflow for building, evaluating, and interp
 
 This repository is organized following a simplified TIER-style structure to make the project easy to understand and fully reproducible:
 
-- **DATA/** – Raw and processed data plus data documentation (metadata).
-- **SCRIPTS/** – All analysis code, organized in the order needed to reproduce results.
-- **OUTPUT/** – Saved figures, tables, and any derived artifacts used in our final presentation.
+- **DATA** – Raw and processed data plus data documentation (metadata).
+- **SCRIPTS** – All analysis code, organized in the order needed to reproduce results.
+- **OUTPUT** – Saved figures, tables, and any derived artifacts used in our final presentation.
 - **LICENSE.txt** – License for using and citing this repository.
 - **README.md** – You are here: orientation, software/platform info, project map, and reproduction instructions.
 
@@ -110,7 +110,7 @@ This section explains, step-by-step, how someone can use this repository to repr
 ### 3.2 Download the Shark Image Dataset from Roboflow
 
 4. **Open the main analysis notebook**
-   - In the `SCRIPTS/` folder, open the primary notebook (e.g., `Project3.ipynb`).
+   - In the `SCRIPTS` folder, open the primary notebook (e.g., `Project3.ipynb`).
 
 5. **Get a Roboflow API key**
    - Create a free Roboflow account and obtain an API key from your account settings.
@@ -240,7 +240,7 @@ If you follow the steps above, you should be able to:
 - **Recreate the conservation summaries**  
   - Printed lines linking predicted species to IUCN Red List status and typical threats.
 
-- **Recreate the EDA figures in `OUTPUT/`**  
+- **Recreate the EDA figures in `OUTPUT`**  
   - Bar chart of images per species.  
   - Boxplots of brightness and contrast per species that match (up to minor visual differences) the PNGs included in the repository.
 
