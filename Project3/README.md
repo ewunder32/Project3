@@ -56,13 +56,11 @@ This section provides a tree-style map of the repository and a brief description
 
 ```
 Project3/
-├── DATA/
-│   └── SHARKS_RAYS_CHIMAERAS/
-│       ├── README.md # Data summary, provenance, license, ethical statements, data dictionary, and explanatory plots description.
-│       │     
-│       │   
-│       └── SHARKS_RAYS_CHIMAERAS.dbf # Tabular dataset with image-level metadata (e.g., label,     width, height, contrast/brightness summaries, IUCN status).
-│                 
+├── DATA/SHARKS_RAYS_CHIMAERAS/
+│   ├──  README.md # Data summary, provenance, license, ethical statements, data dictionary, and explanatory plots description.
+│   │   
+│   └── SHARKS_RAYS_CHIMAERAS.dbf # Tabular dataset with image-level metadata (e.g., label,     width, height, contrast/brightness summaries, IUCN status).
+│                                  
 │
 ├── OUTPUT/
 │   ├── Data Dictionary.png # Visual table summarizing variables, types, and example values.
@@ -76,8 +74,8 @@ Project3/
 │      
 │
 ├── SCRIPTS/
-│   ├── Project3.ipynb # Full dataset creation + analysis pipeline  
-│                
+│    └── Project3.ipynb # Full dataset creation + analysis pipeline  
+│               
 │
 ├── LICENSE.txt # MIT or other selected license for reuse and citation of this repository.
 │   
