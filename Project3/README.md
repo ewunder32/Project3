@@ -56,31 +56,31 @@ This section provides a tree-style map of the repository and a brief description
 
 ```
 Project3/
-├── DATA/SHARKS_RAYS_CHIMAERAS/
-│   ├──  README.md # Data summary, provenance, license, ethical statements, data dictionary, and explanatory plots description.
+├── DATA/SHARKS_RAYS_CHIMAERAS/    
+│   ├──  README.md                                                  # Data summary, provenance, license, ethical statements, data dictionary, and explanatory plots description.
 │   │   
-│   └── SHARKS_RAYS_CHIMAERAS.dbf # Tabular dataset with image-level metadata (e.g., label,     width, height, contrast/brightness summaries, IUCN status).
+│   └── SHARKS_RAYS_CHIMAERAS.dbf                                   # Tabular dataset with image-level metadata (e.g., label,     width, height, contrast/brightness summaries, IUCN status).
 │                                  
 │
 ├── OUTPUT/
-│   ├── Data Dictionary.png # Visual table summarizing variables, types, and example values.
+│   ├── Data Dictionary.png                                         # Visual table summarizing variables, types, and example values.
 │   │   
-│   ├── Distribution of Contrast per Shark Species.png # Boxplot of image contrast (std. dev. of pixel intensities) stratified by shark species
+│   ├── Distribution of Contrast per Shark Species.png              # Boxplot of image contrast (std. dev. of pixel intensities) stratified by shark species
 │   │   
 │   │  
-│   ├── Distribution of Image Brightness per Shark Species.png # Boxplot of mean pixel intensity (brightness) per shark species.
+│   ├── Distribution of Image Brightness per Shark Species.png      # Boxplot of mean pixel intensity (brightness) per shark species.
 │   │   
-│   └── Distribution of Images Across All Unique Shark Species.png # Bar chart showing class counts (number of images) for each species.
+│   └── Distribution of Images Across All Unique Shark Species.png  # Bar chart showing class counts (number of images) for each species.
 │      
 │
 ├── SCRIPTS/
 │    └── Project3.ipynb # Full dataset creation + analysis pipeline  
 │               
 │
-├── LICENSE.txt # MIT or other selected license for reuse and citation of this repository.
+├── LICENSE.txt                                                     # MIT or other selected license for reuse and citation of this repository.
 │   
 │
-└── README.md # Top-level orientation and reproduction instructions (this file).
+└── README.md                                                       # Top-level orientation and reproduction instructions (this file).
     
 ```
 
