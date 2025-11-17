@@ -22,7 +22,7 @@ This section lists the software, libraries, and platforms required to run the an
 
 ### 1.1 Core Software
 
-- **Programming language:** Python 3.11  
+- **Programming language:** Python 3.10+  
 - **Interactive environment:** Google Colab
 
 ### 1.2 Python Packages
@@ -65,8 +65,7 @@ Project3
 │   ├── Data Dictionary.png         # Visual table summarizing variables, types, and example values.
 │   │   
 │   ├── Distribution of Contrast per Shark Species.png  # Boxplot of image contrast (std. dev. of pixel intensities) stratified by shark species
-│   │   
-│   │  
+│   │    
 │   ├── Distribution of Image Brightness per Shark Species.png   # Boxplot of mean pixel intensity (brightness) per shark species.
 │   │   
 │   └── Distribution of Images Across All Unique Shark Species.png   # Bar chart showing class counts (number of images) for each species.      
