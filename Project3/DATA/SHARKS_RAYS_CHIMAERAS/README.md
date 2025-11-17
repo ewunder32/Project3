@@ -5,16 +5,13 @@ Our dataset contains 1,546 images of 15 shark species. The dataset is sourced fr
 **Code to pull Shark Images from RoboFlow**
 
 !pip install roboflow
-
 from roboflow import Roboflow
-
 rf = Roboflow(api_key="c9vR8Ap1lGCVx06U1KI2")
-
 project = rf.workspace("project3-zhzbg").project("shark-species-dataset-818gy")
-
 version = project.version(1)
+dataset = version.download("tensorflow")
 
-dataset = version.download("tensorflow")\
+
 **Link from where IUCN Shark Red List was downloaded (dataset is already located in this folder)**
 
 https://www.iucnssg.org/iucnredlist.html
