@@ -2,6 +2,18 @@
 
 Our dataset contains 1,546 images of 15 shark species. The dataset is sourced from Roboflow’s Shark Species Dataset (/content/Shark-Species-Dataset-1). The dataset is partitioned into training, validation, and test directories following a conventional supervised image classification structure (train/, valid/, test/). Each directory contains subfolders that represent individual shark species classes. The dataset supports our goal of developing a Convolutional Neural Network (CNN) capable of classifying shark species from photographic data and integrating conservation status metadata for vulnerability analysis. The shark species dataset was pulled through the RoboFlow API, and the conservation status was downloaded from ​The IUCN Red List and is entitled SHARKS_RAYS_CHIMAERAS.dbf.
 
+**Code to pull Shark Images from RoboFlow**
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="c9vR8Ap1lGCVx06U1KI2")
+project = rf.workspace("project3-zhzbg").project("shark-species-dataset-818gy")
+version = project.version(1)
+dataset = version.download("tensorflow")
+
+**Link from where IUCN Shark Red List was downloaded (dataset is already located in this folder)**
+https://www.iucnssg.org/iucnredlist.html
+
 ## Provenance
 
 This dataset originates from Roboflow, a public platform for computer vision datasets. The original contributors collected and annotated images of shark species from open-access marine photography repositories and research collaborations. Roboflow standardizes datasets into YOLO- and TensorFlow-compatible formats, performing preprocessing steps such as image resizing, bounding box alignment, and train/validation/test splits. 
